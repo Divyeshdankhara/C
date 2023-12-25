@@ -1,11 +1,15 @@
-# include <stdio.h>
+//Convert to Dollar into Ruppes. 
+#include <stdio.h>
 int main()
 {
-    int dolar = 5;
-    int ruppes = 82;
+    int dolar,ruppes=82,total;
 
-    int total = dolar * ruppes;
-    printf("Dollar to ruppes convert :- %d",total);
+    printf("Enter the Dollar you convert into Ruppes :-> ");
+    scanf("%d",&dolar);
+
+    total = dolar * ruppes;
+
+    printf("%d Dollar to ruppes convert :- %d",dolar,total);
     
     return 0;
 }

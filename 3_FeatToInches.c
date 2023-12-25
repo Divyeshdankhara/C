@@ -1,14 +1,14 @@
-# include <stdio.h>
+#include <stdio.h>
 int main()
 {
-    int feet,total;
+    float feet,total;
 
     printf("Enter the Feet :-> ");
-    scanf("%d",&feet);
+    scanf("%f",&feet);
 
     total = feet * 12;
 
-    printf("%d Feet to Inches convert :- %d",feet,total);
+    printf("%.2f Feet to Inches convert :- %.2f",feet,total);
     
     return 0;
 }

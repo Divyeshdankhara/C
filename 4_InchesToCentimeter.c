@@ -1,11 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int inches = 3;
-    float centimeter = 2.54;
-    float total = inches * centimeter;
+    float inches,total;
 
-    printf("Inches to Centimeter :-> %f",total);
+    printf("Enter the Inches :-> ");
+    scanf("%f",&inches);
+
+    total = inches * 2.54;
+
+    printf("%.2f Inches to Centimeter :-> %.2f",inches,total);
 
     return 0;
 }

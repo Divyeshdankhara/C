@@ -6,5 +6,6 @@ int main()
 
     int total = dolar * ruppes;
     printf("Dollar to ruppes convert :- %d",total);
+    
     return 0;
 }

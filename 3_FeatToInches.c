@@ -1,12 +1,11 @@
-#include<stdio.h>
+# include <stdio.h>
 int main()
 {
-    int feet=5;
-    int inches=12;
-    int total=0;
-    total=feet*inches;
+    int feet = 5;
+    int inches = 82;
 
-    printf("%d Feet to Inches :-> %d",feet,total);
-
+    int total = feet * inches;
+    printf("Feet to Inches convert :- %d",total);
+    
     return 0;
 }

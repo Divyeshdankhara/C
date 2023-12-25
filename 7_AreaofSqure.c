@@ -8,7 +8,7 @@ int main()
 
     area = a * a;
 
-    printf("Area of Squre :-> %f",area);
+    printf("Area of Squre :-> %.2f",area);
 
     return 0;
 }

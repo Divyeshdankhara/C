@@ -10,7 +10,7 @@ int main()
 
     area = l * w;
 
-    printf("Area of Rectangle :-> %f",area);
+    printf("Area of Rectangle :-> %.2f",area);
 
     return 0;
 }

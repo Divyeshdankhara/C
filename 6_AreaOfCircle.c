@@ -8,7 +8,7 @@ int main()
 
     area = 3.14 * r;
 
-    printf("Area of Circle is :-> %f",area);
+    printf("Area of Circle is :-> %.2f",area);
 
     return 0;
 }

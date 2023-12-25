@@ -8,7 +8,7 @@ int main()
 
     fahrenheit = celsius*9/5+32;
 
-    printf("%f temperature Celsius to temperature Fahrenheit is :-> %f",celsius,fahrenheit);
+    printf("%.2f temperature Celsius to temperature Fahrenheit is :-> %.2f",celsius,fahrenheit);
 
     return 0;
 }
